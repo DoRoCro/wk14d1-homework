@@ -7,9 +7,9 @@ class MoviesList extends React.Component {
   render () {
     const moviesNodes = this.props.data.map((movie) => {
       return (
-        <movie title={movie.title} key={movie.id} >
+        <MovieItem title={movie.title} key={movie.id} >
           {movie.text}
-        </movie>
+        </MovieItem>
       )
     })
 
