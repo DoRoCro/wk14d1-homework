@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import MoviesListBox from './components/MoviesListBox'
 
 window.onload = function () {
   ReactDOM.render(
-    <h1> IMDB Lookahead</h1>,
+    <MoviesListBox />,
     document.getElementById('app')
   )
 }
